@@ -13,3 +13,18 @@ body {
 input {
     text-align: @align;
 }
+
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+      -ms-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.box { 
+    .border-radius;
+}
+
+.box10 { 
+    .border-radius(10px);
+}
