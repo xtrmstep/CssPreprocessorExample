@@ -1,0 +1,15 @@
+﻿$color: #ff0000;
+$align: right;
+
+body {
+    background-color: $color;
+}
+
+.style {
+    color: $color;
+    text-align: $align;
+}
+
+input {
+    text-align: $align;
+}
