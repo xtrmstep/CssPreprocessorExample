@@ -89,6 +89,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\default.css">
+      <DependentUpon>default.less</DependentUpon>
+    </Content>
+    <Content Include="Content\default.min.css">
+      <DependentUpon>default.css</DependentUpon>
+    </Content>
+    <Content Include="Content\skin.css">
+      <DependentUpon>skin.less</DependentUpon>
+    </Content>
+    <Content Include="Content\skin.min.css">
+      <DependentUpon>skin.css</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>

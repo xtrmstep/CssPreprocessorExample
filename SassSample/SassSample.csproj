@@ -95,6 +95,12 @@
     <Content Include="Content\default.min.css">
       <DependentUpon>default.css</DependentUpon>
     </Content>
+    <Content Include="Content\skin.css">
+      <DependentUpon>skin.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\skin.min.css">
+      <DependentUpon>skin.css</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
